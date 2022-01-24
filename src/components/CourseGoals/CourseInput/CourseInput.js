@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Button from "../../UI/Button/Button";
 import "./CourseInput.css";
-
+// checking for gitHub
 const CourseInput = (props) => {
   const [enteredValue, setEnteredValue] = useState("");
   const [isValid, setisValid] = useState(true);
